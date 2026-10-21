@@ -1,5 +1,9 @@
 # php74-el7-patched
 
+## ⬇ [Download the RPMs: Releases page](https://github.com/exception0x876/php74-el7-patched/releases/latest)
+
+The git repository contains only scripts and patches. **The packages (RPMs, source RPM and signed `SHA256SUMS`) are attached to the release.** Verify them before installing: see [Verify what you download](#verify-what-you-download).
+
 Unofficial **PHP 7.4.33 RPMs for CentOS 7 / EL7 (x86_64) with the upstream PHP2Shell mitigation**
 (CVE-2026-109618, CVE-2026-109619), rebuilt from Remi Collet's `php-7.4.33-31` source RPM.
 
