@@ -1,5 +1,7 @@
 # php74-el7-patched
 
+**PHP2Shell (CVE-2026-109618 / CVE-2026-109619) mitigation for PHP 7.4 on CentOS 7 / EL7**
+
 ## ⬇ [Download the RPMs: Releases page](https://github.com/exception0x876/php74-el7-patched/releases/latest)
 
 The git repository contains only scripts and patches. **The packages (RPMs, source RPM and signed `SHA256SUMS`) are attached to the release.** Verify them before installing: see [Verify what you download](#verify-what-you-download).
