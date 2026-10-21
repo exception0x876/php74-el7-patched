@@ -1,0 +1,15 @@
+--- a/php74.spec
++++ b/php74.spec
+@@ -1076,9 +1076,9 @@
+ # All files licensed under PHP version 3.01
+ License: PHP
+ Requires: php-common%{?_isa} = %{version}-%{release}
+-BuildRequires: pkgconfig(icu-i18n) >= 74
+-BuildRequires: pkgconfig(icu-io)   >= 74
+-BuildRequires: pkgconfig(icu-uc)   >= 74
++BuildRequires: pkgconfig(icu-i18n) >= 73
++BuildRequires: pkgconfig(icu-io)   >= 73
++BuildRequires: pkgconfig(icu-uc)   >= 73
+ %if 0%{?rhel} == 7
+ Obsoletes: php53-intl, php53u-intl, php54-intl, php54w-intl, php55u-intl, php55w-intl, php56u-intl, php56w-intl
+ Obsoletes: php70u-intl, php70w-intl, php71u-intl, php71w-intl, php72u-intl, php72w-intl
